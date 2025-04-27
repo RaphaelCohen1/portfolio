@@ -754,6 +754,27 @@ footer .socials a:hover {
   }
 }
 
+/*Traduction*/
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.lang-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lang-btn:hover {
+    background: #ddd;
+}
+
 
 /* Blog */
 

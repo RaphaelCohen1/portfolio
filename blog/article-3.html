@@ -1,9 +1,6 @@
-<!--J'ai fini les vidéos de Dgeo Dev-->
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raphael Cohen - Développeur WEB</title>
     <meta name="description" content="Portfolio de Raphael - Développeur Web"><!--description sert à mettre le petit texte en dessous du titre de ma page dans google-->
@@ -20,18 +17,42 @@
 </head>
 
 
-<body>
-    
-    <!-- ceci est un commentaire -->
+<style>
 
-    <header class="header">
+</style>
+
+
+
+    <!-- 
+    Header
+      logo
+        menu
+         rs
+          burger (pour mobile)
+    Hero
+      left
+      right
+
+    About
+      left
+       right
+    
+    Service
+    Skills
+    Portfolio
+    Contact
+
+    footer
+    -->
+
+    <header class="header" id="toto">
         <div class="container d-flex">
             <div class="logo">
-                <a href="../"> Raphael Cohen </a>
+                Raphael Cohen
             </div>
             <nav class="navbar">
-                <ul class="menu liste-unstyled"><!--unstyled permet de enlever les point de liste-->
-                    <li><a href="../#hero">Accueil</a></li>
+                <ul class="menu liste-unstyled d-flex"><!--unstyled permet de enlever les point de liste-->
+                    <li><a href="../#hero">Acceuil</a></li>
                     <li><a href="../#about">A propos</a></li>
                     <li><a href="../#services">Services</a></li>
                     <li><a href="../#skills">Compétences</a></li>
@@ -48,6 +69,7 @@
                             <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
                         </svg>
                     </a>
+                    
                     </li><!--targetattribut spécifie où ouvrir le document lié. -->
                     <li> <!--pour linkedin-->
                      <a href="https://www.linkedin.com/in/rapha%C3%ABl-cohen-b9261a1a2/" target="_blank">
@@ -68,75 +90,26 @@
             </div><!--Contenir plusieurs éléments-->
         </div><!--Cré des blocks-->
     </header>
+    <div class="container">
+        <main class="article">
+            <article class="article">
+                <div class="section-header">
+                    <h1 class="article__title">Le robot-taxi, nouvel horizon de Tesla</h1>
+                    <!--<p class="article__meta">Publié le 12 decembre 2022</p>-->
+                </div>
+                <img src="/image/teslataxi.png" width="1200" height="600" alt="image de test" class="article__img">
 
-    <main class="blog">
-        <div class="container">
-            <h1>Veille</h1>
-            <div class="section-header">
-                <h2>Ma veille informatique</h2>
-                <p class="blo__text">Explorateur passionné de la robotique et de la programmation des robots, je m'engage dans une veille technologique constante pour comprendre et anticiper les avancées qui façonnent notre avenir automatisé</p>
-            </div>
+                <div class="content">
+                    <h2>Le robot-taxi, nouvel horizon de Tesla</h2>
+                    <p>Tesla « devrait être considéré comme une entreprise de robotique d’intelligence artificielle [IA] » et non plus seulement comme un constructeur d’automobiles. A l’avenir, son développement reposera sur l’essor de la voiture autonome. En présentant, jeudi 10 octobre, lors d’un grand show organisé à Hollywood, son robot-taxi baptisé « Cybercab », Elon Musk a voulu tracer les perspectives à long terme de Tesla, en panne de croissance.
+                    </p>
+                    <a href="https://www.lemonde.fr/economie/article/2024/10/11/le-robot-taxi-nouvel-horizon-de-tesla_6348801_3234.html">En savoir plus</a>
+                </div>
+            </article>
+        </main>
 
         
-            <div class="d-grid">
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=1" width="600" height="400" alt="/">
-                    <h3 class="article__title">Ocean One K</h3>
-                    <p class="article__text">Ce robot humanoïde franco-américain va être chargé d’explorer 
-                        « le plus grand musée du monde » que sont les océans pour suppléer l’impossibilité 
-                        d’y envoyer des archéologues en chair et en os.
-                    </p>
-                    <a href="/blog/article-1.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=2" width="600" height="400" alt="/">
-                    <h3 class="article__title">Autisme et Alzheimer : des robots médiateurs ?</h3>
-                    <p class="article__text">Plutôt qu’un robot compagnon, une équipe de chercheurs suggère le « robot extension », 
-                        un peu comme une prothèse en communication. Le patient reste le sujet et les premiers résultats sont étonnants.
-                         Analyse de Sophie Sakka, roboticienne qui dirige le projet.
-                    </p>
-                    <a href="/blog/article-2.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=3" width="600" height="400" alt="/">
-                    <h3 class="article__title">Le robot-taxi, nouvel horizon de Tesla</h3>
-                    <p class="article__text">Avec le Cybercab, Elon Musk veut esquisser un nouvel avenir pour le constructeur automobile américain, aujourd’hui à la peine.
-                        Le projet de robot-taxi, qui pourrait être lancé dès 2024, pourrait permettre à Tesla de se relancer.
-                    </p>
-                    <a href="/blog/article-3.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=4" width="600" height="400" alt="/">
-                    <h3 class="article__title">Comment garantir des robots sans danger ? L’exemple des bus à conduite automatisée</h3>
-                    <p class="article__text">Les robots arrivent petit à petit dans nos vies quotidiennes, 
-                        des chaînes de production en usine au serveur de café, 
-                        jusqu’aux bus à conduite automatisée qui sont entrés en phase de test, notamment en région parisienne.
-                    </p>
-                    <a href="/blog/article-4.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=5" width="600" height="400" alt="/">
-                    <h3 class="article__title">Une main robotique pour aider les pianistes à améliorer leur technique</h3>
-                    <p class="article__text">Une nouvelle étude publié dans sience-robotics; un robot 
-                        qui aide les pianistes professionnels à devenir encore meilleurs.
-                    </p>
-                    <a href="/blog/article-5.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-                <div class="d-grid__item article__card">
-                    <img src="https://picsum.photos/600/400?random=6" width="600" height="400" alt="/">
-                    <h3 class="article__title">Quelles sont les possibilités de l’IA dans le domaine de la robotique ?</h3>
-                    <p class="article__text">Auparavant, les robots fonctionnent de manière prédéfinie. 
-                        Ils n’agissaient pas en dehors des instructions explicites fournies par la programmation.
-                        D’un côté, la robotique produit des outils capables d’effectuer des tâches complexes avec une précision extrême et 
-                        une grande rapidité. De l’autre, l’IA avance de plus en plus loin dans la simulation de l’intelligence humaine. 
-                        L’association de ces deux technologies en plein essor offre des perspectives prometteuses pour l’humanité. 
-                    </p>
-                    <a href="/blog/articlle-6.html" class="article__link stretched-link">Lire la suite</a>
-                </div>
-            </div>
-        </div>
-    </main>
-    
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="grid">
